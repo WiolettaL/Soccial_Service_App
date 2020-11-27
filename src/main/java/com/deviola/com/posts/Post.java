@@ -1,5 +1,6 @@
-package com.deviola.com;
+package com.deviola.com.posts;
 
+import com.deviola.com.users.User;
 import lombok.*;
 
 import javax.persistence.*;
@@ -9,8 +10,8 @@ import javax.persistence.*;
 @RequiredArgsConstructor
 @AllArgsConstructor
 @Getter
-@ToString
 @Setter
+@ToString
 public class Post {
 
     @Id
@@ -23,4 +24,5 @@ public class Post {
 
     @NonNull
     private String body;
+
 }

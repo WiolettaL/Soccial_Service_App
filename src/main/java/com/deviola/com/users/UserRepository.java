@@ -1,4 +1,4 @@
-package com.deviola.com;
+package com.deviola.com.users;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

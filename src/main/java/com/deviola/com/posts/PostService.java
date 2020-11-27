@@ -1,5 +1,7 @@
-package com.deviola.com;
+package com.deviola.com.posts;
 
+import com.deviola.com.users.User;
+import com.deviola.com.users.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
